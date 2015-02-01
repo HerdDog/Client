@@ -1,22 +1,25 @@
 {
-  "name": "herddog",
-  "version": "0.1.0",
-  "description": "HerdDog Client",
-  "main": "console.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/HerdDog/Client.git"
-  },
-  "keywords": [
-    "herddog"
-  ],
-  "author": "Nik Molnar",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/HerdDog/Client/issues"
-  },
-  "homepage": "https://github.com/HerdDog/Client"
+    "name": "herddog",
+    "version": "0.1.0",
+    "description": "HerdDog Client",
+    "main": "herddog.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/HerdDog/Client.git"
+    },
+    "keywords": [
+        "herddog"
+    ],
+    "author": "Nik Molnar",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/HerdDog/Client/issues"
+    },
+    "homepage": "https://github.com/HerdDog/Client",
+    "bin": { 
+        "herddog": "herddog.js"
+    }
 }
