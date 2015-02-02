@@ -19,6 +19,7 @@
     "url": "https://github.com/HerdDog/Client/issues"
   },
   "homepage": "https://github.com/HerdDog/Client",
+  "preferGlobal": true,
   "bin": {
     "herddog": "herddog.js"
   }
