@@ -2,7 +2,7 @@
   "name": "herddog",
   "version": "0.1.5",
   "description": "Turn any folder on your computer into a cute file browser, available on the local network.",
-  "main": "cute-files.js",
+  "main": "herddog.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -28,7 +28,7 @@
   },
   "preferGlobal": true,
   "bin": {
-    "cute-files": "cute-files.js"
+    "cute-files": "herddog.js"
   },
   "readmeFilename": "Readme.md",
   "engines": {
