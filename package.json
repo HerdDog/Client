@@ -1,6 +1,6 @@
 {
   "name": "herddog",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Turn any folder on your computer into a cute file browser, available on the local network.",
   "main": "herddog.js",
   "scripts": {
