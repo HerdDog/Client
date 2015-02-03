@@ -14,11 +14,11 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/martinaglv/cute-files"
+    "url": "https://github.com/herddog/client"
   },
   "author": {
-    "name": "Martin Angelov",
-    "email": "martin@tutorialzine.com"
+    "name": "Nik Molnar",
+    "email": "nikmd23@gmail.com"
   },
   "license": "MIT",
   "dependencies": {
@@ -28,7 +28,7 @@
   },
   "preferGlobal": true,
   "bin": {
-    "cute-files": "herddog.js"
+    "herddog": "herddog.js"
   },
   "readmeFilename": "Readme.md",
   "engines": {
