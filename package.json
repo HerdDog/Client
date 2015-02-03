@@ -1,27 +1,36 @@
 {
   "name": "herddog",
-  "version": "0.1.4",
-  "description": "HerdDog Client",
+  "version": "1.0.2",
+  "description": "Turn any folder on your computer into a cute file browser, available on the local network.",
+  "main": "cute-files.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [
+    "cute",
+    "file",
+    "browser",
+    "files"
+  ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/HerdDog/Client.git"
+    "url": "https://github.com/martinaglv/cute-files"
   },
-  "keywords": [
-    "herddog"
-  ],
-  "author": "Nik Molnar",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/HerdDog/Client/issues"
+  "author": {
+    "name": "Martin Angelov",
+    "email": "martin@tutorialzine.com"
   },
-  "homepage": "https://github.com/HerdDog/Client",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.3.0",
+    "content-disposition": "^0.3.0",
+    "express": "^4.9.4"
+  },
   "preferGlobal": true,
   "bin": {
-    "herddog": "client.js"
+    "cute-files": "cute-files.js"
   },
+  "readmeFilename": "Readme.md",
   "engines": {
     "node": ">= 0.10.x"
   }
